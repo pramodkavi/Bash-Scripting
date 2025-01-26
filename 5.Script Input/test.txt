@@ -1,0 +1,6 @@
+K8S connection
+
+container - container in a pod( localhost )
+pods - public internet (create a service and open a port and set connection type(loadbalancer) )
+
+pods-pods interconnection (create service with ClusterIP type and use env variable like {serviceName}_SERVICE_HOST)
