@@ -1,5 +1,5 @@
 # Taking arguments into array
-args=("$@")
+args=($@)
 
 # print args one by one
 echo ${args[0]} ${args[1]} ${args[2]}

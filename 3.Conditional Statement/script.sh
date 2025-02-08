@@ -39,7 +39,7 @@ count=10
 #     echo " condition is false"
 # fi
 
-if [ "$count" -gt 9 ] || [ "$count" -lt 11 ]
+if [ $count -gt 11 ] 
 then
     echo " Condition is true"
 else
